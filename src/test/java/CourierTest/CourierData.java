@@ -23,7 +23,6 @@ public class CourierData {
         this.password = password;
         this.firstName = firstName;
     }
-
     // Метод для сериализации в JSON
     public String toJson() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();

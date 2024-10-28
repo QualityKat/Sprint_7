@@ -62,6 +62,7 @@ public class CreateOrderTest {
         // Создание объекта заказа
         OrderCreate orderCreate = new OrderCreate(firstName, lastName, address,
                 metroStation, phone, deliveryDate, comment, color, rentTime);
+
         // Создание нового заказа
         Response createResponse = OrderClient.createNewOrder(orderCreate);
         // Проверка успешного создания заказа

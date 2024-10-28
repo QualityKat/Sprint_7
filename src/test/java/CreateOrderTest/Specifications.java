@@ -8,3 +8,4 @@ public class Specifications {
                 .baseUri("http://qa-scooter.praktikum-services.ru/");
     }
 }
+

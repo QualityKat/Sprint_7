@@ -12,7 +12,8 @@ public class GetOrdersListTest {
 
     @Test
     @DisplayName("Get order list")
-    public void getAllOrders() {
+    public void getAllOrders()
+    {
         Response response = OrderClient.getAllOrders();
         response.then().assertThat().body("orders", hasSize(greaterThan(0))).and().statusCode(SC_OK);
     }

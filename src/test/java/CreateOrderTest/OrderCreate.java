@@ -23,7 +23,6 @@ public class OrderCreate {
         this.comment = comment;
         this.color = color;
     }
-
     public String getFirstName() {
         return firstName;
     }

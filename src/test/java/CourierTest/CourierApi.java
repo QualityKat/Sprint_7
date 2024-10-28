@@ -42,7 +42,6 @@ public class CourierApi {
             return -1; // Если авторизация не удалась
         }
     }
-
     // Метод для удаления курьера по его ID
     public void deleteCourier(int courierId) {
         RestAssured.given()

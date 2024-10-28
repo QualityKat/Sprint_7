@@ -18,6 +18,7 @@ public class OrderClient {
 
     //Метод для создания заказа
     @Step("Creating an order")
+
     public static Response createNewOrder(OrderCreate orderCreate) {
         Response response = given()
                 .spec(Specifications.requestSpec())
