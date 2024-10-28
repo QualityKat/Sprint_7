@@ -1,5 +1,4 @@
 package LoginCourierTest;
-import CourierTest.CourierHelper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import io.qameta.allure.Epic;
