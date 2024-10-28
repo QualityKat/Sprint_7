@@ -10,6 +10,7 @@ import static org.apache.http.HttpStatus.*;
 //Тесты с созданием отдельного класса с методами (как один из вариантов)
 
 @RunWith(Parameterized.class)
+
 public class CreateOrderTest {
     private String firstName;
     private String lastName;

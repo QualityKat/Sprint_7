@@ -11,6 +11,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.not;
 
 public class OrderClient {
+
     private static final String CREATE_ORDERS = "/api/v1/orders";
     private static final String CANCEL_ORDER = "/api/v1/orders/finish";
     private static final String GET_ORDER_BY_TRACK = "/api/v1/orders/track";

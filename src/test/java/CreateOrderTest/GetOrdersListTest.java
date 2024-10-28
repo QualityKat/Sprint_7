@@ -7,6 +7,7 @@ import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.Matchers.hasSize;
 
 //Тест с отдельно созданным классом методов (как один из вариантов)
+
 public class GetOrdersListTest {
 
     @Test
