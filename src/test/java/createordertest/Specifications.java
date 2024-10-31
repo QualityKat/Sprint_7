@@ -1,4 +1,5 @@
-package CreateOrderTest;
+package createordertest;
+
 import io.restassured.specification.RequestSpecification;
 import static io.restassured.RestAssured.given;
 

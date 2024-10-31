@@ -1,4 +1,4 @@
-package CreateOrderTest;
+package createordertest;
 
 public class OrderCreate {
     private String firstName;

@@ -1,4 +1,5 @@
-package CreateOrderTest;
+package createordertest;
+
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.junit.Test;
