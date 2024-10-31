@@ -1,5 +1,4 @@
 package couriertest.tests;
-
 import io.restassured.response.Response;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;

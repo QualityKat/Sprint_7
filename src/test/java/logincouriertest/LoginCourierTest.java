@@ -1,5 +1,4 @@
 package logincouriertest;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import couriertest.api.CourierApi;

@@ -1,6 +1,8 @@
 package couriertest.api;
+
 //  Алеся, я постаралась учесть все обязательные исправления, спасибо большое за гамотные наводки, это очень ценно
 // Очень надеюсь что я на верном пути, хотя мозги уже запутались окончательно)))
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.qameta.allure.Step;
